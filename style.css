@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:100vw;
+        height:100vh;
+       
+        flex-direction:column;
+}
+    
+.container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width:90%;
+        height:400px;
+        align-items: center;
+        justify-content: center;
+
+    
+}
+.box{
+        min-width:110px;
+        height:110px;
+        
+        font-weight:bolder;
+        font-size:7rem;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    border-radius: 10px;
+    text-align: center;
+}
+h1,H2{font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: black;
+    padding: 1.5rem;
+
+}
+    
+.button-box{
+    width:90%;
+    height:250px;
+    margin-top: 10rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    z-index:999;
+   background-color: #ffffff1a;
+   backdrop-filter: blur(16px) saturate(120%);
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    visibility: hidden;
+    text-wrap: nowrap;
+   
+}
+
+.restart{
+        padding:0.5rem 1rem;
+        border-radius:5px;
+        width: 50px;
+        height: 50px;
+        background-image: url(..//refresh_24dp_FILL0_wght400_GRAD0_opsz24.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: transparent;
+        border: none;
+}
+    
+    .result-box{
+        font-weight: bold;
+        font-size: 2.5rem;
+        font-family: "DM Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      padding-bottom: 1rem;
+      transition: text 2s ease-in-out;
+      text-wrap: nowrap;
+}
